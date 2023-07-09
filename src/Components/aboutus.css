@@ -1,0 +1,29 @@
+.aboutus_container
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    margin-top: 5%;
+    height: auto;
+}
+
+.image_container img
+{
+    display: grid;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: 500ms ease;
+}
+
+.image_container img:hover
+{
+    filter: drop-shadow(-40px -5px #68896c);
+}
+
+.content_container
+{
+    display: flex;
+    justify-content: center;
+}

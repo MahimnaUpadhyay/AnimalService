@@ -1,0 +1,57 @@
+.navbar
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #68896c;
+}
+
+.navbar a
+{
+    font-weight: bold;
+    font-size: medium;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar a:hover
+{
+    color: #F1C27B;
+    transition: 200ms ease;
+}
+
+@media (max-width: 895px)
+{
+    .navbar
+    {
+        position: relative;
+        width:900px;
+    }
+}
+
+@media (max-width: 349px) 
+{
+    .navbar
+    {
+        position: relative;
+        width: 349px;
+    }    
+}
+
+@media (max-width: 347px) 
+{
+    .navbar
+    {
+        position: relative;
+        width: 347px;
+    }    
+}
+
+@media (max-width: 320px) 
+{
+    .navbar
+    {
+        position: relative;
+        width: 330px;
+    }    
+}

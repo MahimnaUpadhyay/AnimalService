@@ -1,0 +1,62 @@
+.footer
+{   
+    display: flex;
+    align-items: center;
+    /* margin-top: 100%; */
+    width: 100%;
+    height: 200px;
+    margin-top: 10%;
+    background-color: #68896c;
+}
+
+.title
+{
+    display: flex;
+    width: 100vw;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.list
+{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    list-style: none;
+    align-items:flex-end;
+    gap: 1%;
+    margin-right: 2%;
+    margin-top: 1%;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 550;
+}
+
+.list li
+{
+    text-align: center;
+}
+
+@media (max-width: 900px)
+{
+    .footer
+    {
+        position: relative;
+        width: 900px;
+    }
+
+    .list
+    {
+        font-size: small;
+    }
+}
+
+@media (max-width: 435)
+{
+    .footer .list
+    {
+        position: absolute;
+        width: 435px;
+        align-items: flex-end;
+    }
+}
