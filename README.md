@@ -9,7 +9,7 @@ Languages I used during the Developing phase were:-
 
 Tools I used during the design phase were:-
 - Figma
-- Behance (for inspireration)
+- Behance (for inspiration)
 - Google Fonts
 - Unsplash (for images)
 
